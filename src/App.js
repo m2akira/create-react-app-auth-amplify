@@ -1,10 +1,3 @@
-
-withAuthenticatorを使用してアプリケーションを認証保護する場合、ログインが必須となります。アプリケーションを認証保護から外すには、withAuthenticatorを使用せずに、通常のReactコンポーネントとしてアプリケーションを構築する必要があります。
-
-以下のように、withAuthenticatorを削除したコードで、認証保護を外すことができます。
-
-javascript
-Copy code
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
